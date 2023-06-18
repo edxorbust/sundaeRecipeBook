@@ -1,0 +1,207 @@
+.fuente-bold {
+  font-family: "Indie Flower", cursive;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000071;
+  margin-top: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  flex: 1;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar-item {
+    flex: 0 0 20%;
+  }
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+.font-fields {
+  font-family: "Indie Flower", cursive;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000071;
+}
+
+.font-keys {
+  font-family: "Indie Flower", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000071;
+}
+
+.font-warning {
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  color: #d50000;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+}
+.table-row {
+  margin: 5px;
+}
+
+.excel-table {
+  margin-top: 45px;
+  border-collapse: collapse;
+}
+
+.excel-table td,
+th {
+  text-align: center;
+  width: 400px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  padding: 5px 10px;
+  border-color: #cccdcd;
+}
+
+@media (max-width: 800px) {
+  .excel-table td,
+  th {
+    width: 200px;
+  }
+}
+
+.excel-table th {
+  border-bottom: 1px solid;
+  border-color: #cccdcd;
+}
+
+.columna-izq {
+  border-right: 1px solid;
+}
+.columna-der {
+  border-left: 1px solid;
+}
+
+.search-bar{
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  margin: 25px auto;
+  padding: 8px;
+  background-color: #eaf0fa;
+  border-radius: 4px;
+  font-family: 'Tsukimi Rounded', sans-serif;
+  
+}
+.search-bar input[type="text"] {
+  flex: 1;
+  border: none;
+  padding: 6px;
+  font-size: 14px;
+  outline: none;
+}
+.search-bar:hover {
+  background-color: #d5e4ff;
+}
+.search-bar button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.search-bar button:hover {
+  background-color: #45a049;
+}
+
+.edit-button{
+  font-size: 15px;
+  color: #b1b1b1;
+  
+}
+
+.edit-button:hover{
+  color: #787878;
+  
+}
+
+
+
+.add-button{
+  border-radius: 20px;
+  background-color: #45a049;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 20px;
+}
+
+.add-button:hover{
+  background-color: #38813b;
+}
+
+.edit-button-main{
+  border-radius: 20px;
+  background-color: #45a049;
+  color: white;
+  font-family: "Indie Flower", cursive;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 20px;
+  margin: 0px 5px;
+}
+
+.edit-button-main:hover{
+  background-color: #38813b;
+}
+
+.logo{
+  max-width: 300px;
+}
+
+.shopping {
+  margin-top: 45px;
+  border-collapse: collapse;
+}
+
+.shopping td,
+th {
+  text-align: center;
+  width: 200px;
+  overflow-wrap: break-word;
+  word-break: break-all;
+  padding: 5px 10px;
+  border-color: #cccdcd;
+}
+
+@media (max-width: 800px) {
+  .shopping td,
+  th {
+    width: 200px;
+  }
+}
+
+.shoppnig th {
+  border-bottom: 1px solid;
+  border-color: #cccdcd;
+}
